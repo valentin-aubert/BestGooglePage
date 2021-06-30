@@ -1,0 +1,67 @@
+.nav {
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+}
+
+.left, .middle, .right {
+  flex: 1;
+}
+
+.middle {
+  width: 40px;
+  height: 40px;
+  
+}
+
+.right {
+  justify-content: space;
+  align-items: center;
+  display: flex;
+  min-height: 56px;
+
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-item, .nav-buttons {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 16px;
+  display: inline-block;
+}
+
+.cercle { 
+  height: 25px; 
+  width: 25px; 
+  background-color: blue;
+  border-radius: 50%; 
+
+.google {
+  display: flex;
+  align-items: center;
+}
+
+
+.header {
+  display: flex;
+  min-height: 56px;
+
+}
+
+
+#footer {
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.lien {
+  flex: 1;
+  text-align: center;
+
+}
